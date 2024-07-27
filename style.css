@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Lato:wght@200..700&family=Fira+Sans&family=Oswald:wght@500&family=Quicksand:wght@300..700&family=Zain:wght@400&family=Roboto+Condensed:wght@100..900&display=swap");
+
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.navlink {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #f2d752da;
+}
+
+.DNP {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fstC {
+  border: 2px solid rgba(0, 0, 0, 0.414);
+}
+
+.fonB {
+  width: 95%;
+  background-image: linear-gradient(#1d8f8f5f, #26c2c1);
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dialogBtxt {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.622);
+}
+
+.sbimg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url("./realistic-water-drop-with-ecosystem.jpg") no-repeat center
+    center/cover fixed;
+  z-index: -9;
+  opacity: 0.7;
+}
+
+.shed {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.shcn {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background: linear-gradient(to right, #01cd89, #01cdb5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.tbg {
+  background: linear-gradient(#b2e9ec, #b7e7e4);
+  height: 24rem;
+}
+
+.fbg{
+  height: fit-content;
+  padding-bottom: 2rem;
+  background: linear-gradient(to bottom, #eaf0f1, #d5f0ee);
+}
+
+.fhed{
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fhed2{
+  color: #3d7fcd;
+}
+
+.cardHed{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardP{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fibg{
+  border-bottom: 2px solid rgba(0, 0, 0, 0.466);
+}
+
+.fihed{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ficotn p{
+  width: 90%;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.794);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ready_to{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.work_with_us{
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.call_us{
+   display: grid;
+   grid-template-columns: 2.3rem 1fr;
+   grid-template-rows: 1.5rem 1.5rem;
+}
+
+.call_us span:first-child{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.call_us span:nth-child(2){
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.call_us span:last-child{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.email_us{
+  display: grid;
+  grid-template-columns: 2.3rem 1fr;
+   grid-template-rows: 1.5rem 1.5rem;
+}
+
+.email_us span:first-child{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.email_us span:nth-child(2){
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.email_us span:last-child{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.social_link span:first-child a i:hover{
+  color: #0E938D !important;
+}
+
+.social_link span:nth-child(2) a i:hover{
+  color: #0E938D !important;
+}
+
+.social_link span:nth-child(3) a i:hover{
+  color: #0E938D !important;
+}
+
+.social_link span:last-child a i:hover{
+  color: #0E938D !important;
+}
+
+.contact_us_text{
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+}
+
+/* Animation */
+
+.show-animation{
+  background-color: red;
+}
